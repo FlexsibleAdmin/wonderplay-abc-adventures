@@ -81,7 +81,8 @@ function runSetupCommands() {
     "bun add react-confetti@^6.1.0",
     "bun add canvas-confetti@^1.9.0",
     "bun add -d @types/canvas-confetti@^1.6.0",
-    "bun install lucide-react framer-motion zustand react-router-dom clsx tailwind-merge"
+    "bun install lucide-react framer-motion zustand react-router-dom clsx tailwind-merge",
+    "bun add @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities"
 ];
     
     if (commands.length === 0) {
